@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AladdinLuaFrameWork.CSharp", "AladdinLuaFrameWork.CSharp.csproj", "{F588223C-145A-95A3-388D-DA536B5E9DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AladdinLuaFrameWork.CSharp.Editor", "AladdinLuaFrameWork.CSharp.Editor.csproj", "{C6B7CC2E-24D0-DAE9-A60F-CE2DCAFA61BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F588223C-145A-95A3-388D-DA536B5E9DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F588223C-145A-95A3-388D-DA536B5E9DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F588223C-145A-95A3-388D-DA536B5E9DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F588223C-145A-95A3-388D-DA536B5E9DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B7CC2E-24D0-DAE9-A60F-CE2DCAFA61BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B7CC2E-24D0-DAE9-A60F-CE2DCAFA61BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B7CC2E-24D0-DAE9-A60F-CE2DCAFA61BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B7CC2E-24D0-DAE9-A60F-CE2DCAFA61BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

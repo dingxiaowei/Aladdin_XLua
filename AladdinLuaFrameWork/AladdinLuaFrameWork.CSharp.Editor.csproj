@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6B7CC2E-24D0-DAE9-A60F-CE2DCAFA61BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.3f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_3;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_3;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AladdinLuaFrameWork.CSharp.csproj">
+      <Project>{F588223C-145A-95A3-388D-DA536B5E9DF9}</Project>
+      <Name>AladdinLuaFrameWork.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\BMFontReader.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\ComponentSelector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\EventDelegateDrawer.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\FreeType.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUIEditorExtensions.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUIHandles.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUIHelp.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUIJson.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUIMenu.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUISettings.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUISnap.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\PropertyBindingEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\SpriteSelector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIBasicSpriteEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIButtonKeysEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UICameraEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UICameraTool.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIEventTriggerEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIFontInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIFontMaker.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIForwardEventsEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIGridEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIInputEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UILabelInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UILocalizeEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIPanelTool.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIPrefabTool.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIRectEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIRootEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UISliderEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UITableEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UITextureInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UITexturePacker.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+    <Compile Include="Assets\xLua\Assets\XLua\Src\Editor\Generator.cs" />
+    <Compile Include="Assets\xLua\Assets\XLua\Src\Editor\Hotfix.cs" />
+    <Compile Include="Assets\xLua\Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
+    <Compile Include="Assets\xLua\Assets\XLua\Src\Editor\TemplateRef.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Resources\Localization.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\ReadMe - 3.8.2.txt" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\Resources\async_buy.lua.txt" />
+    <None Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\Resources\message_panel.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\CHANGELOG.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Examples\06_Coroutine\Resources\coruntine_test.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Examples\06_Coroutine\Resources\cs_coroutine.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Examples\07_AsyncTest\Resources\message_box.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Resources\perf\memory.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Resources\perf\profiler.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Resources\tdr\tdr.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Resources\xlua\util.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\LuaClassWrap.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\LuaDelegateWrap.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\LuaEnumWrap.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\LuaRegister.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\PackUnpack.tpl.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
+    <None Include="Assets\xLua\Assets\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
+    <None Include="Assets\xLua\Gen\link.xml" />
+    <None Include="Assets\xLua\LICENSE.TXT" />
+    <None Include="Assets\xLua\Test\UnitTest\StreamingAssets\testlua\C.lua.txt" />
+    <None Include="Assets\xLua\Test\UnitTest\readme.txt" />
+    <None Include="Assets\xLua\Test\UnitTest\xLuaTest\CSharpCallLua\Resources\A.lua.txt" />
+    <None Include="Assets\xLua\Test\UnitTest\xLuaTest\CSharpCallLua\Resources\D.lua.txt" />
+    <None Include="Assets\xLua\Test\UnitTest\xLuaTest\CSharpCallLua\Resources\InFile.lua.txt" />
+    <None Include="Assets\xLua\Test\UnitTest\xLuaTest\CSharpCallLua\Resources\empty.lua.txt" />
+    <None Include="Assets\xLua\Test\UnitTest\xLuaTest\CSharpCallLua\Resources\error.lua.txt" />
+    <None Include="Assets\xLua\Test\UnitTest\xLuaTest\Resources\non_tlv_net_msg_type.xml" />
+    <None Include="Assets\xLua\Test\UnitTest\xLuaTest\Resources\non_tlv_net_protocol.xml" />
+    <None Include="Assets\xLua\Test\UnitTest\xLuaTest\Resources\non_tlv_net_protocol_v4.xml" />
+    <None Include="Assets\xLua\build\CMakeLists.txt" />
+    <None Include="Assets\xLua\build\lua-5.3.3\CMakeLists.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>
