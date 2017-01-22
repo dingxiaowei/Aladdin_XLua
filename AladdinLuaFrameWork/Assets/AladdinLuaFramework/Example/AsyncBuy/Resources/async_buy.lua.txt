@@ -1,0 +1,25 @@
+﻿
+local util = require 'xlua.util'
+local message_panel = require 'message_panel'
+
+-------------------------async_recharge-----------------------------
+local function async_recharge(num, cb) --模拟的异步充值
+    print('requst server...')
+    cb(true, num)
+end
+
+local recharge = util.async_to_sync(async_recharge)
+-------------------------async_recharge end----------------------------
+local buy = function()
+    message_panel.alert("余额提醒","您余额不足，请充值！")
+	if message_panel.confirm("确认充值10元吗？","确认框" ) then
+		local r1, r2 = recharge(10)
+		print('recharge result', r1, r2)
+		message_panel.alert("提示","充值成功！")
+	else
+	    print('cancel')
+	    message_panel.alert("提示","取消充值！")
+	end
+end
+
+CS.UIEventListener.Get(CS.UnityEngine.GameObject.Find("BtnBuy").gameObject).onClick = util.coroutine_call(buy)

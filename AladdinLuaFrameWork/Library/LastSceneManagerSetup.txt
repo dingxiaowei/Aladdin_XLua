@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AladdinLuaFramework/SelfExample/SelfExampleScene.unity
+- path: Assets/AladdinLuaFramework/Example/Tetris/Scene/TetrisScene1.unity
   isLoaded: 1
   isActive: 1

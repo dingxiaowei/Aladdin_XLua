@@ -1,4 +1,5 @@
 #Aladdin_XLua
+## [Unity XLua]热更新XLua入门(一)-基础篇
 ### 前言
 前段时间腾讯开源了一个内部热更框架XLua在Unity开发群里引起一阵热议，也受到广大开发者的热捧，然后我当然也抱着好奇的心去学习学习。后面也会将扩展之后的工程放在git上，大家一起学习交流！在此感谢XLua作者创造出这么好用的框架！
 
@@ -510,6 +511,16 @@ return {
  }
 ```
 运行的结果就如第一张图所示
+
+## [Unity XLua]热更新XLua入门(二)-俄罗斯方块实例篇
+### 前言
+在xLua没出来之前，开源的lua框架基本都是以界面用Lua开发为主，核心战斗用C#开发，但xLua出来之后主推C#开发，Lua用作HotFix，这里我展示的第一个例子就是基于界面的经典2D小游戏——俄罗斯方块，界面逻辑是用C#写，启动加载逻辑是用lua，后面我会继续第二个同样的Demo，但是以纯Lua为主，这个案例明天更新。
+
+### 效果图
+![这里写图片描述](http://img.blog.csdn.net/20170122011246613?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZGluZ3hpYW93ZWkyMDEz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](http://img.blog.csdn.net/20170122011546224?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZGluZ3hpYW93ZWkyMDEz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](http://img.blog.csdn.net/20170122011557755?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZGluZ3hpYW93ZWkyMDEz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+由于我不会美术，所以这里使用的开源的游戏资源，感谢此作者。
 
 
 ### 后续计划

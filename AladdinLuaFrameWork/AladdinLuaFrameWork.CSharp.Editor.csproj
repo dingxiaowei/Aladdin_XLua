@@ -187,6 +187,10 @@
     <Compile Include="Assets\xLua\Assets\XLua\Src\Editor\TemplateRef.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AladdinLuaFramework\Example\AsyncBuy\Resources\async_buy.lua.txt" />
+    <None Include="Assets\AladdinLuaFramework\Example\AsyncBuy\Resources\message_panel.lua.txt" />
+    <None Include="Assets\AladdinLuaFramework\Example\Tetris\Resources\Tetris1.lua.txt" />
+    <None Include="Assets\AladdinLuaFramework\Example\Tetris\Resources\Tetris2.lua.txt" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
@@ -228,8 +232,6 @@
     <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
-    <None Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\Resources\async_buy.lua.txt" />
-    <None Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\Resources\message_panel.lua.txt" />
     <None Include="Assets\xLua\Assets\XLua\CHANGELOG.txt" />
     <None Include="Assets\xLua\Assets\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
     <None Include="Assets\xLua\Assets\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />

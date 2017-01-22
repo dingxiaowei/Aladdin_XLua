@@ -62,6 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AladdinLuaFramework\Example\AsyncBuy\AsyncBuy.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\Example\AsyncBuy\MessagePanel.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\Example\SimpleDemo\SelfCSModel.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\Example\SimpleDemo\SelfExampleSrc.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\Example\Tetris\Scripts\LuaRunningBehaviour.cs" />
+    <Compile Include="Assets\AladdinLuaFramework\Example\Tetris\Scripts\MainGameCSScript.cs" />
     <Compile Include="Assets\AladdinLuaFramework\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
     <Compile Include="Assets\AladdinLuaFramework\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
     <Compile Include="Assets\AladdinLuaFramework\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -198,11 +204,7 @@
     <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\AladdinLuaFramework\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\AladdinLuaFramework\Scripts\AladdinGenConfig.cs" />
-    <Compile Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\AsyncBuy.cs" />
-    <Compile Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\AsyncTest1.cs" />
-    <Compile Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\MessagePanel.cs" />
-    <Compile Include="Assets\AladdinLuaFramework\SelfExample\SimpleDemo\SelfCSModel.cs" />
-    <Compile Include="Assets\AladdinLuaFramework\SelfExample\SimpleDemo\SelfExampleSrc.cs" />
+    <Compile Include="Assets\GX\Extensions.cs" />
     <Compile Include="Assets\xLua\Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />
     <Compile Include="Assets\xLua\Assets\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
     <Compile Include="Assets\xLua\Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
@@ -251,6 +253,7 @@
     <Compile Include="Assets\xLua\Gen\EmployeeTemplateWrap.cs" />
     <Compile Include="Assets\xLua\Gen\EmployeestructWrap.cs" />
     <Compile Include="Assets\xLua\Gen\EnumWrap.cs" />
+    <Compile Include="Assets\xLua\Gen\GXExtensionsWrap.cs" />
     <Compile Include="Assets\xLua\Gen\Gen2FloatStructWrap.cs" />
     <Compile Include="Assets\xLua\Gen\Gen3FloatStructWrap.cs" />
     <Compile Include="Assets\xLua\Gen\Gen4FloatStructWrap.cs" />
@@ -265,6 +268,7 @@
     <Compile Include="Assets\xLua\Gen\InvokeLuaICalcBridge.cs" />
     <Compile Include="Assets\xLua\Gen\LongStaticWrap.cs" />
     <Compile Include="Assets\xLua\Gen\LuaBehaviourWrap.cs" />
+    <Compile Include="Assets\xLua\Gen\LuaRunningBehaviourWrap.cs" />
     <Compile Include="Assets\xLua\Gen\LuaTestCommonWrap.cs" />
     <Compile Include="Assets\xLua\Gen\LuaTestObjWrap.cs" />
     <Compile Include="Assets\xLua\Gen\ManagerWrap.cs" />
@@ -424,6 +428,10 @@
     <Compile Include="Assets\xLua\Test\UnitTest\xLuaTest\Main.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AladdinLuaFramework\Example\AsyncBuy\Resources\async_buy.lua.txt" />
+    <None Include="Assets\AladdinLuaFramework\Example\AsyncBuy\Resources\message_panel.lua.txt" />
+    <None Include="Assets\AladdinLuaFramework\Example\Tetris\Resources\Tetris1.lua.txt" />
+    <None Include="Assets\AladdinLuaFramework\Example\Tetris\Resources\Tetris2.lua.txt" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
@@ -465,8 +473,6 @@
     <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
     <None Include="Assets\AladdinLuaFramework\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
-    <None Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\Resources\async_buy.lua.txt" />
-    <None Include="Assets\AladdinLuaFramework\SelfExample\AsyncBuy\Resources\message_panel.lua.txt" />
     <None Include="Assets\xLua\Assets\XLua\CHANGELOG.txt" />
     <None Include="Assets\xLua\Assets\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
     <None Include="Assets\xLua\Assets\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />

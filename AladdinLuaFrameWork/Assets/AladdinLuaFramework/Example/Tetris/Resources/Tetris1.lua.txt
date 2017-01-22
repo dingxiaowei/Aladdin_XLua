@@ -1,0 +1,21 @@
+﻿
+local util = require 'xlua.util'
+
+local function initGamePanel()
+	local obj = CS.UnityEngine.Resources.Load("TetrisPanelOne")
+	local gamePanel = CS.UnityEngine.Object.Instantiate(obj.gameObject).transform
+	gamePanel.gameObject.name = "TetrisPanelOne"
+	gamePanel:SetParent(self.transform)
+	gamePanel.localPosition = CS.UnityEngine.Vector3.zero
+	gamePanel.localScale = CS.UnityEngine.Vector3.one
+end
+
+function start()
+	print("lua start, 游戏开始...")
+	initGamePanel()
+end
+
+function ondestroy()
+    print("lua destroy")
+end
+
